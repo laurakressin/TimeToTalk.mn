@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5538083C1DDCC12800458C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538083B1DDCC12800458C58 /* AppDelegate.swift */; };
+		5538083E1DDCC12800458C58 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538083D1DDCC12800458C58 /* MasterViewController.swift */; };
+		553808401DDCC12800458C58 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538083F1DDCC12800458C58 /* DetailViewController.swift */; };
+		553808431DDCC12800458C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553808411DDCC12800458C58 /* Main.storyboard */; };
+		553808451DDCC12800458C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553808441DDCC12800458C58 /* Assets.xcassets */; };
+		553808481DDCC12800458C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553808461DDCC12800458C58 /* LaunchScreen.storyboard */; };
+		553808531DDCC12800458C58 /* TimeToTalk_MN_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553808521DDCC12800458C58 /* TimeToTalk_MN_AppTests.swift */; };
+		5538085E1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538085D1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5538084F1DDCC12800458C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553808301DDCC12800458C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553808371DDCC12800458C58;
+			remoteInfo = "TimeToTalk.MN App";
+		};
+		5538085A1DDCC12800458C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553808301DDCC12800458C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553808371DDCC12800458C58;
+			remoteInfo = "TimeToTalk.MN App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		553808381DDCC12800458C58 /* TimeToTalk.MN App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeToTalk.MN App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5538083B1DDCC12800458C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5538083D1DDCC12800458C58 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		5538083F1DDCC12800458C58 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		553808421DDCC12800458C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		553808441DDCC12800458C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		553808471DDCC12800458C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		553808491DDCC12800458C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5538084E1DDCC12800458C58 /* TimeToTalk.MN AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeToTalk.MN AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553808521DDCC12800458C58 /* TimeToTalk_MN_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeToTalk_MN_AppTests.swift; sourceTree = "<group>"; };
+		553808541DDCC12800458C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553808591DDCC12800458C58 /* TimeToTalk.MN AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeToTalk.MN AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5538085D1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeToTalk_MN_AppUITests.swift; sourceTree = "<group>"; };
+		5538085F1DDCC12800458C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553808351DDCC12800458C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5538084B1DDCC12800458C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553808561DDCC12800458C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5538082F1DDCC12800458C58 = {
+			isa = PBXGroup;
+			children = (
+				5538083A1DDCC12800458C58 /* TimeToTalk.MN App */,
+				553808511DDCC12800458C58 /* TimeToTalk.MN AppTests */,
+				5538085C1DDCC12800458C58 /* TimeToTalk.MN AppUITests */,
+				553808391DDCC12800458C58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		553808391DDCC12800458C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553808381DDCC12800458C58 /* TimeToTalk.MN App.app */,
+				5538084E1DDCC12800458C58 /* TimeToTalk.MN AppTests.xctest */,
+				553808591DDCC12800458C58 /* TimeToTalk.MN AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5538083A1DDCC12800458C58 /* TimeToTalk.MN App */ = {
+			isa = PBXGroup;
+			children = (
+				5538083B1DDCC12800458C58 /* AppDelegate.swift */,
+				5538083D1DDCC12800458C58 /* MasterViewController.swift */,
+				5538083F1DDCC12800458C58 /* DetailViewController.swift */,
+				553808411DDCC12800458C58 /* Main.storyboard */,
+				553808441DDCC12800458C58 /* Assets.xcassets */,
+				553808461DDCC12800458C58 /* LaunchScreen.storyboard */,
+				553808491DDCC12800458C58 /* Info.plist */,
+			);
+			path = "TimeToTalk.MN App";
+			sourceTree = "<group>";
+		};
+		553808511DDCC12800458C58 /* TimeToTalk.MN AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				553808521DDCC12800458C58 /* TimeToTalk_MN_AppTests.swift */,
+				553808541DDCC12800458C58 /* Info.plist */,
+			);
+			path = "TimeToTalk.MN AppTests";
+			sourceTree = "<group>";
+		};
+		5538085C1DDCC12800458C58 /* TimeToTalk.MN AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5538085D1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift */,
+				5538085F1DDCC12800458C58 /* Info.plist */,
+			);
+			path = "TimeToTalk.MN AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		553808371DDCC12800458C58 /* TimeToTalk.MN App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553808621DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN App" */;
+			buildPhases = (
+				553808341DDCC12800458C58 /* Sources */,
+				553808351DDCC12800458C58 /* Frameworks */,
+				553808361DDCC12800458C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeToTalk.MN App";
+			productName = "TimeToTalk.MN App";
+			productReference = 553808381DDCC12800458C58 /* TimeToTalk.MN App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5538084D1DDCC12800458C58 /* TimeToTalk.MN AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553808651DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN AppTests" */;
+			buildPhases = (
+				5538084A1DDCC12800458C58 /* Sources */,
+				5538084B1DDCC12800458C58 /* Frameworks */,
+				5538084C1DDCC12800458C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553808501DDCC12800458C58 /* PBXTargetDependency */,
+			);
+			name = "TimeToTalk.MN AppTests";
+			productName = "TimeToTalk.MN AppTests";
+			productReference = 5538084E1DDCC12800458C58 /* TimeToTalk.MN AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		553808581DDCC12800458C58 /* TimeToTalk.MN AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553808681DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN AppUITests" */;
+			buildPhases = (
+				553808551DDCC12800458C58 /* Sources */,
+				553808561DDCC12800458C58 /* Frameworks */,
+				553808571DDCC12800458C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5538085B1DDCC12800458C58 /* PBXTargetDependency */,
+			);
+			name = "TimeToTalk.MN AppUITests";
+			productName = "TimeToTalk.MN AppUITests";
+			productReference = 553808591DDCC12800458C58 /* TimeToTalk.MN AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		553808301DDCC12800458C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TimeToTalk.MN;
+				TargetAttributes = {
+					553808371DDCC12800458C58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					5538084D1DDCC12800458C58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 553808371DDCC12800458C58;
+					};
+					553808581DDCC12800458C58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 553808371DDCC12800458C58;
+					};
+				};
+			};
+			buildConfigurationList = 553808331DDCC12800458C58 /* Build configuration list for PBXProject "TimeToTalk.MN App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5538082F1DDCC12800458C58;
+			productRefGroup = 553808391DDCC12800458C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553808371DDCC12800458C58 /* TimeToTalk.MN App */,
+				5538084D1DDCC12800458C58 /* TimeToTalk.MN AppTests */,
+				553808581DDCC12800458C58 /* TimeToTalk.MN AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553808361DDCC12800458C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553808481DDCC12800458C58 /* LaunchScreen.storyboard in Resources */,
+				553808451DDCC12800458C58 /* Assets.xcassets in Resources */,
+				553808431DDCC12800458C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5538084C1DDCC12800458C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553808571DDCC12800458C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553808341DDCC12800458C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553808401DDCC12800458C58 /* DetailViewController.swift in Sources */,
+				5538083E1DDCC12800458C58 /* MasterViewController.swift in Sources */,
+				5538083C1DDCC12800458C58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5538084A1DDCC12800458C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553808531DDCC12800458C58 /* TimeToTalk_MN_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553808551DDCC12800458C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5538085E1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		553808501DDCC12800458C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553808371DDCC12800458C58 /* TimeToTalk.MN App */;
+			targetProxy = 5538084F1DDCC12800458C58 /* PBXContainerItemProxy */;
+		};
+		5538085B1DDCC12800458C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553808371DDCC12800458C58 /* TimeToTalk.MN App */;
+			targetProxy = 5538085A1DDCC12800458C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		553808411DDCC12800458C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553808421DDCC12800458C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		553808461DDCC12800458C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553808471DDCC12800458C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		553808601DDCC12800458C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		553808611DDCC12800458C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553808631DDCC12800458C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TimeToTalk.MN App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mn.TimeToTalk-MN-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		553808641DDCC12800458C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TimeToTalk.MN App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mn.TimeToTalk-MN-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		553808661DDCC12800458C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TimeToTalk.MN AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mn.TimeToTalk-MN-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeToTalk.MN App.app/TimeToTalk.MN App";
+			};
+			name = Debug;
+		};
+		553808671DDCC12800458C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TimeToTalk.MN AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mn.TimeToTalk-MN-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeToTalk.MN App.app/TimeToTalk.MN App";
+			};
+			name = Release;
+		};
+		553808691DDCC12800458C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "TimeToTalk.MN AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mn.TimeToTalk-MN-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TimeToTalk.MN App";
+			};
+			name = Debug;
+		};
+		5538086A1DDCC12800458C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "TimeToTalk.MN AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mn.TimeToTalk-MN-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TimeToTalk.MN App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553808331DDCC12800458C58 /* Build configuration list for PBXProject "TimeToTalk.MN App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553808601DDCC12800458C58 /* Debug */,
+				553808611DDCC12800458C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553808621DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553808631DDCC12800458C58 /* Debug */,
+				553808641DDCC12800458C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		553808651DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553808661DDCC12800458C58 /* Debug */,
+				553808671DDCC12800458C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		553808681DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553808691DDCC12800458C58 /* Debug */,
+				5538086A1DDCC12800458C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 553808301DDCC12800458C58 /* Project object */;
+}
