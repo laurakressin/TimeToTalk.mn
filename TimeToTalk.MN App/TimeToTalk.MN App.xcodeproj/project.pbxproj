@@ -15,6 +15,7 @@
 		553808481DDCC12800458C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553808461DDCC12800458C58 /* LaunchScreen.storyboard */; };
 		553808531DDCC12800458C58 /* TimeToTalk_MN_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553808521DDCC12800458C58 /* TimeToTalk_MN_AppTests.swift */; };
 		5538085E1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538085D1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift */; };
+		55FE50161DDEA35300AF96DA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 55FE50151DDEA35300AF96DA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		553808591DDCC12800458C58 /* TimeToTalk.MN AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeToTalk.MN AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5538085D1DDCC12800458C58 /* TimeToTalk_MN_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeToTalk_MN_AppUITests.swift; sourceTree = "<group>"; };
 		5538085F1DDCC12800458C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FE50151DDEA35300AF96DA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../PythonPractice/PythonProjects/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		5538082F1DDCC12800458C58 = {
 			isa = PBXGroup;
 			children = (
+				55FE50151DDEA35300AF96DA /* README.md */,
 				5538083A1DDCC12800458C58 /* TimeToTalk.MN App */,
 				553808511DDCC12800458C58 /* TimeToTalk.MN AppTests */,
 				5538085C1DDCC12800458C58 /* TimeToTalk.MN AppUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				553808401DDCC12800458C58 /* DetailViewController.swift in Sources */,
 				5538083E1DDCC12800458C58 /* MasterViewController.swift in Sources */,
+				55FE50161DDEA35300AF96DA /* README.md in Sources */,
 				5538083C1DDCC12800458C58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +513,7 @@
 				553808641DDCC12800458C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		553808651DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN AppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				553808671DDCC12800458C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		553808681DDCC12800458C58 /* Build configuration list for PBXNativeTarget "TimeToTalk.MN AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				5538086A1DDCC12800458C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

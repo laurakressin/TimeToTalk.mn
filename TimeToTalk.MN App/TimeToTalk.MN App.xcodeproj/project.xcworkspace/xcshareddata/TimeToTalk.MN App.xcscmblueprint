@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3112F433D8805561DA44A1F7F3D590A496C82294",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0CD46FD17C230CD1C61703E85588D97E3DB84BA4" : 9223372036854775807,
+    "3112F433D8805561DA44A1F7F3D590A496C82294" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D2FF6AB6-F3EA-4FD2-B602-0D3F8288BFD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0CD46FD17C230CD1C61703E85588D97E3DB84BA4" : "..\/..\/PythonPractice\/PythonProjects",
+    "3112F433D8805561DA44A1F7F3D590A496C82294" : "TimeToTalk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TimeToTalk.MN App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TimeToTalk.MN App\/TimeToTalk.MN App.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/laurakressin\/PythonProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CD46FD17C230CD1C61703E85588D97E3DB84BA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/laurakressin\/TimeToTalk.mn.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3112F433D8805561DA44A1F7F3D590A496C82294"
+    }
+  ]
+}
